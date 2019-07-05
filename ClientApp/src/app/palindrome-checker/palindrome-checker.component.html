@@ -1,0 +1,9 @@
+<h1>Palindrome Checker</h1>
+<p>
+    Use the form below to test for palindromes
+</p>
+<div class="form-group">
+    <input class="form-control form-control-lg" type="text" [formControl]="palindromeCandidate" placeholder="Type here...">
+    <br/>  
+    <button class="btn btn-primary" (click)="checkForPalindrome()">Is this a palindrome?</button>
+</div>
